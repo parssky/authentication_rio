@@ -22,8 +22,7 @@ class HomePage(rio.Component):
                 """
 # Buzzwordz Inc.!
 
-Unleashing synergistic paradigms for unprecedented excellence since the day
-after yesterday.
+Unleashing everything here
             """,
                 min_width=60,
                 align_x=0.5,
