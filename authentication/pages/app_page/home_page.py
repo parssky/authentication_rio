@@ -4,7 +4,7 @@ from dataclasses import KW_ONLY, field
 import typing as t
 
 import rio
-
+from authentication.components import news_article
 from ... import components as comps
 
 @rio.page(
@@ -18,6 +18,7 @@ class HomePage(rio.Component):
 
     def build(self) -> rio.Component:
         return rio.Column(
+            news_article.NewsArticle(markdown="ok"),
             rio.Markdown(
                 """
 # Buzzwordz Inc.!
