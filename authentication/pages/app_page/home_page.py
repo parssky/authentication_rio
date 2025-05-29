@@ -23,7 +23,7 @@ class HomePage(rio.Component):
                 """
 # Buzzwordz Inc.!
 
-Unleashing everything in Mehre-pars!!!!!!!! Yes yes
+Unleashing everything in Mehre-pars!!!!!!!! Yes yes yes
             """,
                 min_width=60,
                 align_x=0.5,
