@@ -23,7 +23,7 @@ class HomePage(rio.Component):
                 """
 # Buzzwordz Inc.!
 
-Unleashing everything in Mehre-pars!!!!!!!! Yes yes yes yes
+Unleashing everything in Mehre-pars!!!!!!!! Yes yes yes yes yes
             """,
                 min_width=60,
                 align_x=0.5,
@@ -59,7 +59,7 @@ Unleashing everything in Mehre-pars!!!!!!!! Yes
             rio.Markdown(
                 """
 Contact us today to unlock your business's quantum potential and embark on a
-journey of transformational growth and stratospheric success.
+journey of transformational growth and stratospheric success.!!!!!
             """,
                 min_width=60,
                 align_x=0.5,
