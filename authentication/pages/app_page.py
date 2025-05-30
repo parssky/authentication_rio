@@ -18,7 +18,7 @@ def guard(event: rio.GuardEvent) -> str | None:
         event.session[data_models.AppUser]
 
     except KeyError:
-        # User is not logged in, redirect to the login page
+        # User is not logged in, redirect to the login page, TEST TEST
         return "/"
 
     # User is logged in, no redirection needed
